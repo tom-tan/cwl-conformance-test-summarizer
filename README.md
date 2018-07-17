@@ -7,6 +7,8 @@ Requirements:
 
 Example:
 ```console
+$ pip install cwltest # necessary to run the conformance test
+$ pip install cwltool # example of the workflow engine
 $ git clone git@github.com:common-workflow-language/common-workflow-language.git
 $ cd common-workflow-language
 # By default it uses cwltool. For other engines, use ./run_test.sh RUNNER=/path/to/your/favorite/engine
