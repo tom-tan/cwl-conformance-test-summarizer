@@ -26,7 +26,7 @@ Once you store the output of this tool in a server that can be accessed via inte
 you can use the badge of the result of conformance test by using the following links, for example:
 
 ```
-https://img.shields.io/badge/dynamic/json.svg?label=CWL%20conformance&query=$.ratio&colorB=green&suffix=%&uri=https://raw.githubusercontent.com/tom-tan/cwl-conformance-test-summarizer/master/sample-summary.json
+![CWL conformance](https://img.shields.io/badge/dynamic/json.svg?label=CWL%20conformance&query=$.ratio&colorB=green&suffix=%&uri=https://raw.githubusercontent.com/tom-tan/cwl-conformance-test-summarizer/master/sample-summary.json&style=flat)
 ```
 
 Here is the results:
@@ -36,3 +36,5 @@ Here is the results:
 ## Todo and Known Issues:
 - The badge color should reflect the result. For example, green when all the tests passed, orange when all the tests for required features passed, and red when some tests for required feature failed.
   - Currently shields.io does not support dynamic setting for colors. Once [#1525 for badges/shields](https://github.com/badges/shields/pull/1525) is merged, we will use badges that reflect the results.
+- I cannot see the badge for the above example...
+  - Dynamic badge generation in shields.io takes a little time and browsers sometimes fail to get the badge due to timeout.
