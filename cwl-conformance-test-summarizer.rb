@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# coding: utf-8
 require 'optparse'
 require 'json'
 require 'rexml/document'
@@ -29,12 +30,13 @@ if $0 == __FILE__
   nrequired = required.length
   success_required = nil
 
+  # color schemes are from shields/lib/colorscheme.json in https://github.com/badges/shields
   status = if success == all
-             'green'
+             '97CA00' # green
            elsif success_required == nrequired
-             'yellow'
+             'fe7d37' # orange
            else
-             'red'
+             'e05d44' # red
            end
   result = {
     :success => success,
