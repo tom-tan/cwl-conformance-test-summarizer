@@ -18,6 +18,6 @@ $ cwl-conformance-test-summarizer.rb v1.0/results.xml | jq .
   "nall": 132,
   "nrequired": 39,
   "ratio": 98.5,
-  "status": "e05d44"
+  "status": "red"
 }
 ```

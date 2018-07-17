@@ -30,13 +30,14 @@ if $0 == __FILE__
   nrequired = required.length
   success_required = nil
 
-  # color schemes are from shields/lib/colorscheme.json in https://github.com/badges/shields
+  # We can find the color scheme in https://github.com/badges/shields/lib/colorscheme.json
+  # See also PR #1525
   status = if success == all
-             '97CA00' # green
+             'green'
            elsif success_required == nrequired
-             'fe7d37' # orange
+             'orange'
            else
-             'e05d44' # red
+             'red'
            end
   result = {
     :success => success,
