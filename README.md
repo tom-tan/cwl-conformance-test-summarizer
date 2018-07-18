@@ -31,7 +31,7 @@ you can use the badge of the result of conformance test by using the following l
 ![CWL conformance](https://img.shields.io/badge/dynamic/json.svg?label=CWL%20conformance&query=$.ratio&colorB=green&suffix=%&uri=https://raw.githubusercontent.com/tom-tan/cwl-conformance-test-summarizer/master/sample-summary.json&style=flat)
 ```
 
-Here is the results:
+Here is the result:
 
 ![CWL conformance](https://img.shields.io/badge/dynamic/json.svg?label=CWL%20conformance&query=$.ratio&colorB=green&suffix=%&uri=https://raw.githubusercontent.com/tom-tan/cwl-conformance-test-summarizer/master/sample-summary.json&style=flat)
 
